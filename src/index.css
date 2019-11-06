@@ -53,3 +53,24 @@ code {
 .numero-pratos {
   font-weight: normal;
 }
+
+.cross {
+  font-size: 55px;
+  color: #FFFFFF;
+  float: right;
+  padding-left: 5px;
+  padding-top: 20px;
+}
+
+
+@media (max-width: 768px) {
+  .titulo {
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  .subtitulo {
+    text-align: left;
+    padding-left: 15px;
+  }
+}
