@@ -67,6 +67,15 @@ code {
   color: white;
 }
 
+.card-info {
+  border-left: 7px solid #F3AA00;
+  margin-top: 2%;
+  padding-right: 0px;
+  border-radius: 20px;
+  background-color: #333333;
+  color: #FFFFFF;
+}
+
 @media (max-width: 768px) {
   .titulo {
     text-align: left;

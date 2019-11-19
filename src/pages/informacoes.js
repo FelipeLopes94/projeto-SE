@@ -1,6 +1,6 @@
 
 import React from 'react';
-import Cards from '../components/Card'
+import CardInfo from '../components/CardInfo'
 import Nav from '../components/Navbar'
 
 
@@ -10,15 +10,15 @@ const Informacoes = () => (
         <h1 className="titulo">Nome do Local</h1>
 
         <div className="cross"> </div>
-        <Cards></Cards>
+        <CardInfo></CardInfo>
         <div className="cross"> </div>
-        <Cards></Cards>
+        <CardInfo></CardInfo>
         <div className="cross"> </div>
-        <Cards></Cards>
+        <CardInfo></CardInfo>
         <div className="cross"> </div>
-        <Cards></Cards>
+        <CardInfo></CardInfo>
         <div className="cross"> </div>
-        <Cards></Cards>
+        <CardInfo></CardInfo>
     </div>
 );
 
