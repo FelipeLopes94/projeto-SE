@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Cards from './components/Card'
 import Nav from './components/Navbar'
+import { Link } from 'react-router-dom'
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <div class="col-lg-6">
         <div className="cross"><a>⊕</a> </div>
         <Cards></Cards>
-        <div className="cross"><a>⊕</a></div>
+        <div className="cross"><Link to="/cadastro">⊕</Link> </div>
         <Cards></Cards>
         <div className="cross"><a>⊕</a></div>
         <Cards></Cards>
