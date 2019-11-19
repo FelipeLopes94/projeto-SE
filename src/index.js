@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Cadastro from './pages/cadastro'
 import NotFound from './pages/notfound'
+import Informacoes from './pages/informacoes'
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -12,6 +13,7 @@ ReactDOM.render(
         <Switch>
             <Route path="/" exact={true} component={App} />
             <Route path="/cadastro" component={Cadastro} />
+            <Route path='/informacoes' component={Informacoes} />
             <Route path="*" component={NotFound} />
         </Switch>
     </BrowserRouter>
