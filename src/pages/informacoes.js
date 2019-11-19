@@ -6,6 +6,7 @@ import Nav from '../components/Navbar'
 
 const Informacoes = () => (
     <div class="col-lg-6">
+
         <Nav></Nav>
         <h1 className="titulo">Nome do Local</h1>
 

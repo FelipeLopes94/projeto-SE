@@ -3,7 +3,10 @@ import React from 'react';
 import Form from 'react-bootstrap/Form'
 
 const Cadastro = () => (
+
     <div class="col-lg-6 form">
+        <button type="button" value="Voltar" onClick="history.go(-1)"> SETA DE VOLTAR</button>
+
         <h1 className="titulo">Lugar</h1>
         <Form >
             <Form.Group controlId="exampleForm.ControlInput1">
