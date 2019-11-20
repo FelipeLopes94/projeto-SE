@@ -14,7 +14,6 @@ const InfoSilvaLanches = () => (
             <h1 className="titulo">{Local[0].name}</h1>
             <p className="numero-pratos">{Local[0].menuItems.length} Pratos</p>
             {Local[0].menuItems.map((local, index) => {
-                console.log('LOG', Local.menuItems)
                 return (
                     <Card className="card-info">
                         <Card.Body>

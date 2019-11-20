@@ -15,7 +15,6 @@ const InfoCanalPalatus = () => (
             <h1 className="titulo">{Local[3].name}</h1>
             <p className="numero-pratos">{Local[3].menuItems.length} Pratos</p>
             {Local[3].menuItems.map((local, index) => {
-                console.log('LOG', Local[3].menuItems.length)
                 return (
                     <div>
                         <Card className="card-info">

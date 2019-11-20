@@ -15,7 +15,6 @@ const InfoZCafe = () => (
             <h1 className="titulo">{Local[1].name}</h1>
             <p className="numero-pratos">{Local[1].menuItems.length} Pratos</p>
             {Local[1].menuItems.map((local, index) => {
-                console.log('LOG', Local[0].menuItems.length)
                 return (
                     <Card className="card-info">
                         <Card.Body>

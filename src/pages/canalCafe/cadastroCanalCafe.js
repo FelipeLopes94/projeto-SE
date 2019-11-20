@@ -6,9 +6,6 @@ import { Link } from 'react-router-dom'
 import Local from '../../lugares.json'
 
 
-export function goBack() {
-    window.history.go(-2);
-}
 const CadastroCanalCafe = () => (
 
     <div className="col-lg-6 center-content">
