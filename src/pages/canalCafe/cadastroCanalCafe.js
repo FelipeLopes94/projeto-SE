@@ -12,7 +12,7 @@ const CadastroCanalCafe = () => (
 
         <h1 className="titulo">Canal Cafe</h1>
         <Form >
-            <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Group controlId="exampleForm.ControlInput1">  
                 <p>Nome do Prato</p>
                 <Form.Control type="textarea" placeholder="name@example.com" />
             </Form.Group>
