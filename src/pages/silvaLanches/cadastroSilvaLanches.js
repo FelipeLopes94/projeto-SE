@@ -1,11 +1,12 @@
 
 import React from 'react';
 import Form from 'react-bootstrap/Form'
+import { Link } from 'react-router-dom'
 
 const CadastroSilvaLanches = () => (
 
     <div class="col-lg-6 form">
-        <button type="button" value="Voltar" onClick="history.go(-1)"> SETA DE VOLTAR</button>
+    <Link to="/"><a> &#170; </a></Link>   
 
         <h1 className="titulo">SILVA LANCHES</h1>
         <Form >

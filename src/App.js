@@ -5,9 +5,6 @@ import Nav from './components/Navbar'
 import { Link } from 'react-router-dom'
 import Local from '../src/lugares.json'
 
-console.log('LOG APP',Local)
-
-
 // Local.map((x,index)=>{
 //   x[index].menuItem.map()
 // })
@@ -19,7 +16,7 @@ function App() {
       <h1 className="titulo">Lugares</h1>
       <p className="subtitulo">X Lugares cadastrados</p>
       <div class="col-lg-6">
-        <div className="cross"><Link to="/cadastroCanalCafe">⊕</Link> </div>
+        <div className="cross"><Link to="/cadastroSilvaLanches">⊕</Link> </div>
         <Card></Card>
 
       </div>
