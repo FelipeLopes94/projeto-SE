@@ -29,7 +29,7 @@ const InfoZCafe = () => (
             })}
         </div>
         <div className="col-sm-6">
-            <Link to="{urlCadastro}"><p className="cross-cadastro">+</p></Link>
+            <Link to="{/icadastrozcafe}"><p className="cross-cadastro">+</p></Link>
         </div>
 
     </div>

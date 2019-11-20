@@ -8,7 +8,7 @@ import Local from '../../lugares.json'
 
 const InfoCanalCafe = () => (
     <div>
-        <div class="col-lg-6 center-content">
+        <div className="col-lg-6 center-content">
             <Nav></Nav>
             <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
             <h1 className="titulo">{Local[2].name}</h1>
@@ -27,7 +27,7 @@ const InfoCanalCafe = () => (
             })}
         </div>
         <div className="col-sm-6">
-            <Link to="{urlCadastro}"><p className="cross-cadastro">+</p></Link>
+            <Link to="{/cadastrocanalcafe}"><p className="cross-cadastro">+</p></Link>
 
         </div>
     </div>

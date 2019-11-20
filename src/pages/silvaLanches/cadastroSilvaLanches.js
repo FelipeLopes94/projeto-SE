@@ -3,6 +3,7 @@ import React from 'react';
 import Form from 'react-bootstrap/Form'
 import { Link } from 'react-router-dom'
 import Nav from '../../components/Navbar'
+import Local from '../../lugares.json'
 
 const CadastroSilvaLanches = () => (
 
@@ -11,7 +12,7 @@ const CadastroSilvaLanches = () => (
             <Nav></Nav>
             <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 
-            <h1 className="titulo">SILVA LANCHES</h1>
+            <h1 className="titulo">{Local[0].name}</h1>
             <Form >
                 <Form.Group controlId="exampleForm.ControlInput1">
                     <p>Nome do Prato</p>
