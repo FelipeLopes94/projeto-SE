@@ -1,11 +1,14 @@
 
 import React from 'react';
 import Form from 'react-bootstrap/Form'
+import { Link } from 'react-router-dom'
+import Nav from '../../components/Navbar'
 
 const CadastroPalatus = () => (
 
     <div class="col-lg-6 form">
-        <button type="button" value="Voltar" onClick="history.go(-1)"> SETA DE VOLTAR</button>
+        <Nav></Nav>
+        <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 
         <h1 className="titulo">PALSTUS</h1>
         <Form >

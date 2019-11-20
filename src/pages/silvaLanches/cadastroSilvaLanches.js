@@ -24,6 +24,8 @@ const CadastroSilvaLanches = () => (
                 <p>Descrição do prato</p>
                 <Form.Control as="textarea" rows="3" />
             </Form.Group>
+            <Link to="{urlCadastro}"><p className="cross">+</p></Link>
+
         </Form>
     </div>
 );
