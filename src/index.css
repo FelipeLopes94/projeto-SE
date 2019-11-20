@@ -107,8 +107,7 @@ code {
 }
 
 .btn-salvar {
-  width: 60%;
-  margin-left: 19%;
+  width: 100%;
 }
 
 .numero-pratos {
@@ -124,6 +123,10 @@ code {
   cursor: pointer;
 }
 
+.preco-prato {
+  float: right;
+  margin-top: -10%;
+}
 
 @media (max-width: 768px) {
   .titulo {
@@ -182,6 +185,11 @@ code {
     color: #FFFFFF;
     width: 60%;
     margin-left: 60%;
+  }
+
+  .preco-prato {
+    float: right;
+    margin-top: -4%;
   }
 }
 

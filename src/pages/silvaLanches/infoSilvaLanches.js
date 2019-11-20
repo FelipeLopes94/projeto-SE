@@ -23,6 +23,7 @@ const InfoSilvaLanches = () => (
                     <Card className="card-info">
                         <Card.Body>
                             <Card.Title>{local.name}</Card.Title>
+                            <Card.Title className="preco-prato">R${local.price}</Card.Title>
                             <Card.Text>
                                 {local.description}
                             </Card.Text>
