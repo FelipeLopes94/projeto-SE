@@ -75,6 +75,7 @@ code {
   font-size: 16px;
   text-align: left;
   font-weight: normal;
+  margin-left: 5%;
 }
 
 .preco-prato {
@@ -192,6 +193,10 @@ code {
   .preco-prato {
     float: right;
     margin-top: -4%;
+  }
+
+  .numero-pratos {
+    margin-left: 0%;
   }
 }
 
