@@ -1,18 +1,22 @@
 
 import React from 'react';
 import Form from 'react-bootstrap/Form'
+import Nav from '../../components/Navbar'
+import { Link } from 'react-router-dom'
+
 
 export function goBack() {
     window.history.go(-2);
-  }
+}
 const CadastroCanalCafe = () => (
 
     <div class="col-lg-6 form">
-        <button type="button" value="Voltar" onClick="goBack()"> SETA DE VOLTAR</button>
+        <Nav></Nav>
+        <Link to="cadastroSilvaLanches"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 
         <h1 className="titulo">Canal Cafe</h1>
         <Form >
-            <Form.Group controlId="exampleForm.ControlInput1">  
+            <Form.Group controlId="exampleForm.ControlInput1">
                 <p>Nome do Prato</p>
                 <Form.Control type="textarea" placeholder="name@example.com" />
             </Form.Group>

@@ -2,11 +2,13 @@
 import React from 'react';
 import Form from 'react-bootstrap/Form'
 import { Link } from 'react-router-dom'
+import Nav from '../../components/Navbar'
 
 const CadastroSilvaLanches = () => (
 
     <div class="col-lg-6 form">
-    <Link to="/"><a> &#170; </a></Link>   
+        <Nav></Nav>
+        <Link to="window.history.back()"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 
         <h1 className="titulo">SILVA LANCHES</h1>
         <Form >

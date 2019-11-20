@@ -8,14 +8,15 @@ import Local from '../../lugares.json'
 
 const InfoCanalPalatus = () => (
     <div class="col-lg-6">
-        <Link to="cadastroSilvaLanches"><button type="button"> SETA DE VOLTAR</button></Link>
         <Nav></Nav>
+        <Link to="cadastroSilvaLanches"><button type="button"> SETA DE VOLTAR</button></Link>
+
         <h1 className="titulo">{Local[3].name}</h1>
+        <p className="numero-pratos">{Local[3].menuItems.length} Pratos</p>
         {Local[3].menuItems.map((local, index) => {
-            console.log('LOG', Local[3].length)
+            console.log('LOG', Local[3].menuItems.length)
             return (
                 <div>
-                    <p>{local.length}</p>
                     <Card className="card-info">
                         <Card.Body>
                             <Card.Title>{local.name}</Card.Title>

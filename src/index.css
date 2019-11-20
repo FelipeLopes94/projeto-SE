@@ -67,6 +67,19 @@ code {
   color: white;
 }
 
+.numero-pratos {
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: left;
+}
+
+.seta-voltar {
+  width: 50px;
+  margin: 2%;
+
+  cursor: pointer;
+}
+
 .card-info {
   border-left: 7px solid #F3AA00;
   margin-top: 2%;

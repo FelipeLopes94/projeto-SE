@@ -8,9 +8,11 @@ import Local from '../../lugares.json'
 
 const InfoZCafe = () => (
     <div class="col-lg-6">
-        <Link to="cadastroSilvaLanches"><button type="button"> SETA DE VOLTAR</button></Link>
         <Nav></Nav>
+        <Link to="window.history.back()"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
+
         <h1 className="titulo">{Local[1].name}</h1>
+        <p className="numero-pratos">{Local[1].menuItems.length} Pratos</p>
         {Local[1].menuItems.map((local, index) => {
             console.log('LOG', Local[0].menuItems.length)
             return (
