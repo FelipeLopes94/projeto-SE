@@ -102,6 +102,15 @@ code {
   color: white;
 }
 
+.form-valor {
+  width: 50%;
+}
+
+.btn-salvar {
+  width: 60%;
+  margin-left: 19%;
+}
+
 .numero-pratos {
   color: #FFFFFF;
   font-size: 16px;
