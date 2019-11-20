@@ -2,18 +2,41 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Cadastro from './pages/cadastro'
+
+import cadastroCanalCafe from './pages/canalCafe/cadastroCanalCafe'
+import infoCanalCafe from './pages/canalCafe/infoCanalCafe'
+
+import cadastroPalatus from './pages/palatus/cadastroPalatus'
+import infoPalatus from './pages/palatus/infoPalatus'
+
+import cadastroSilvaLanches from './pages/silvaLanches/cadastroSilvaLanches'
+import infoSilvaLanches from './pages/silvaLanches/infoSilvaLanches'
+
+import cadastroZCafe from './pages/zCafe/cadastroZCafe'
+import infoZCafe from './pages/zCafe/infoZCafe'
+
 import NotFound from './pages/notfound'
-import Informacoes from './pages/informacoes'
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 ReactDOM.render(
-    <BrowserRouter>
+    <BrowserRouter >
+    
         <Switch>
             <Route path="/" exact={true} component={App} />
-            <Route path="/cadastro" component={Cadastro} />
-            <Route path='/informacoes' component={Informacoes} />
+
+            <Route path="/cadastroCanalCafe" component={cadastroCanalCafe} />
+            <Route path='/infoCanalCafe' component={infoCanalCafe} />
+
+            <Route path="/cadastroPalatus" component={cadastroPalatus} />
+            <Route path='/infoPalatus' component={infoPalatus} />
+
+            <Route path="/cadastroSilvaLanches" component={cadastroSilvaLanches} />
+            <Route path='/infoSilvaLanches' component={infoSilvaLanches} />
+
+            <Route path="/cadastroZCafe" component={cadastroZCafe} />
+            <Route path='/infoZCafe' component={infoZCafe} />
+
             <Route path="*" component={NotFound} />
         </Switch>
     </BrowserRouter>

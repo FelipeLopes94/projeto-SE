@@ -1,20 +1,28 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card'
+import Local from '../../src/lugares.json'
+
 
 class Cards extends React.Component {
     state = {}
     render() {
         return (
-            <Card className="bar">
-                <Card.Body>
-                    <Card.Title>Special title treatment</Card.Title>
-                    <Card.Text>
-                        With supporting text below as a natural lead-in to additional content.
-                     </Card.Text>
-                </Card.Body>
-            </Card>
-
-        );
+            <div>
+                {Local.map((local, index)=>{
+                    console.log(index)
+                    return (
+                        <Card className="bar" key={index}>
+                            <Card.Body>
+                                <Card.Title>{local.name}</Card.Title>
+                                <Card.Text>
+                                    {Local[index].menuItems.length} Pratos
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    )
+                })}
+            </div>
+        )
     }
 }
 

@@ -1,8 +1,16 @@
 import React from 'react';
 import './App.css';
-import Cards from './components/Card'
+import Card from './components/Card'
 import Nav from './components/Navbar'
 import { Link } from 'react-router-dom'
+import Local from '../src/lugares.json'
+
+console.log('LOG APP',Local)
+
+
+// Local.map((x,index)=>{
+//   x[index].menuItem.map()
+// })
 
 function App() {
   return (
@@ -11,16 +19,9 @@ function App() {
       <h1 className="titulo">Lugares</h1>
       <p className="subtitulo">X Lugares cadastrados</p>
       <div class="col-lg-6">
-        <div className="cross"><Link to="/cadastro">⊕</Link> </div>
-        <Cards></Cards>
-        <div className="cross"><Link to="/cadastro">⊕</Link> </div>
-        <Cards></Cards>
-        <div className="cross"><Link to="/cadastro">⊕</Link> </div>
-        <Cards></Cards>
-        <div className="cross"><Link to="/cadastro">⊕</Link> </div>
-        <Cards></Cards>
-        <div className="cross"><Link to="/cadastro">⊕</Link> </div>
-        <Cards></Cards>
+        <div className="cross"><Link to="/cadastroCanalCafe">⊕</Link> </div>
+        <Card></Card>
+
       </div>
 
     </div>
