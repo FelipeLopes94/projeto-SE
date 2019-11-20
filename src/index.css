@@ -82,6 +82,18 @@ code {
   cursor: pointer;
 }
 
+.cross-cadastro {
+  font-size: 33px;
+  color: rgb(0, 0, 0);
+  border: 2px solid white;
+  border-radius: 32px;
+  width: 13%;
+  background-color: #F3AA00;
+  padding-left: 16px;
+  margin: 5%;
+  float: right;
+}
+
 .form {
   color: white;
 }
@@ -121,13 +133,37 @@ code {
     width: 14%;
     margin-top: -20%;
   }
+
+
 }
 
 @media (min-width: 1024px) {
-  .form {
+  .center-content {
     margin-left: 25%;
     margin-top: 2%;
     color: white;
+  }
+
+  .cross-cadastro {
+    font-size: 33px;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+    border-radius: 32px;
+    width: 6%;
+    background-color: #F3AA00;
+    padding-left: 16px;
+    margin-right: -3%;
+    float: right;
+  }
+
+  .card-local {
+    /* margin-left: 10%;margin-right: 40%; */
+    margin-top: 2%;
+    padding-right: 0px;
+    border-radius: 20px;
+    background-color: #333333;
+    color: #FFFFFF;
+    width: 92%;
   }
 }
 

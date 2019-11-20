@@ -6,7 +6,7 @@ import Nav from '../../components/Navbar'
 
 const CadastroZCafe = () => (
 
-    <div class="col-lg-6 form">
+    <div className="col-lg-6 center-content">
         <Nav></Nav>
         <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 

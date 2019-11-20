@@ -6,28 +6,30 @@ import Nav from '../../components/Navbar'
 
 const CadastroSilvaLanches = () => (
 
-    <div class="col-lg-6 form">
-        <Nav></Nav>
-        <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
+    <div className="col-lg-6 center-content">
+        <div>
+            <Nav></Nav>
+            <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 
-        <h1 className="titulo">SILVA LANCHES</h1>
-        <Form >
-            <Form.Group controlId="exampleForm.ControlInput1">
-                <p>Nome do Prato</p>
-                <Form.Control type="textarea" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlInput1">
-                <p>Valor</p>
-                <Form.Control type="textarea" placeholder="name@example.com" />
-            </Form.Group>
-            <Form.Group controlId="exampleForm.ControlTextarea1">
-                <p>Descrição do prato</p>
-                <Form.Control as="textarea" rows="3" />
-            </Form.Group>
-            <Link to="{urlCadastro}"><p className="cross">+</p></Link>
+            <h1 className="titulo">SILVA LANCHES</h1>
+            <Form >
+                <Form.Group controlId="exampleForm.ControlInput1">
+                    <p>Nome do Prato</p>
+                    <Form.Control type="textarea" placeholder="name@example.com" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlInput1">
+                    <p>Valor</p>
+                    <Form.Control type="textarea" placeholder="name@example.com" />
+                </Form.Group>
+                <Form.Group controlId="exampleForm.ControlTextarea1">
+                    <p>Descrição do prato</p>
+                    <Form.Control as="textarea" rows="3" />
+                </Form.Group>
+            </Form>
+        </div>
 
-        </Form>
     </div>
+
 );
 
 export default CadastroSilvaLanches;
