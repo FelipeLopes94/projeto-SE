@@ -15,7 +15,7 @@ const CadastroPalatus = () => (
         <Form >
             <Form.Group controlId="exampleForm.ControlInput1">
                 <p>Nome do Prato:</p>
-                <Form.Control type="textarea" placeholder="name@example.com" />
+                <Form.Control type="textarea" placeholder="nome do prato" />
             </Form.Group>
             <Form.Group className="form-valor">
                 <p>Valor:</p>
