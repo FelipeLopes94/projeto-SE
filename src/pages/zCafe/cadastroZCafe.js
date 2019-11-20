@@ -17,13 +17,14 @@ const CadastroZCafe = () => (
                 <p>Nome do Prato</p>
                 <Form.Control type="textarea" placeholder="name@example.com" />
             </Form.Group>
-            <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Group className="form-valor">
                 <p>Valor</p>
-                <Form.Control type="textarea" placeholder="name@example.com" />
+                <Form.Control type="textarea" placeholder="valor" />
             </Form.Group>
             <Form.Group controlId="exampleForm.ControlTextarea1">
                 <p>Descrição do prato</p>
                 <Form.Control as="textarea" rows="3" />
+                <p className="alerta-descricao">* A descrição deve ter até 200 caracteres</p>
             </Form.Group>
         </Form>
         <button type="button" class="btn btn-warning btn-salvar">Salvar</button>

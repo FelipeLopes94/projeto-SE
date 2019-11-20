@@ -4,11 +4,7 @@ import Nav from '../../components/Navbar'
 import Card from 'react-bootstrap/Card'
 import Local from '../../lugares.json'
 import { Link } from 'react-router-dom'
-// import cadastroSilvaLanches from './pages/silvaLanches/cadastroSilvaLanches'
 
-// function failace(){
-//     window.history.back();
-// }
 const InfoSilvaLanches = () => (
     <div>
         <div className="col-lg-6 center-content">

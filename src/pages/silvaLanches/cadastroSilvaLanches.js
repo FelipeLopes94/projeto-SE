@@ -25,6 +25,7 @@ const CadastroSilvaLanches = () => (
                 <Form.Group controlId="exampleForm.ControlTextarea1">
                     <p>Descrição do prato</p>
                     <Form.Control as="textarea" rows="3" />
+                    <p className="alerta-descricao">* A descrição deve ter até 200 caracteres</p>
                 </Form.Group>
             </Form>
             <button type="button" class="btn btn-warning btn-salvar">Salvar</button>
