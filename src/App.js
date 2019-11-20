@@ -14,9 +14,8 @@ function App() {
     <div className="App">
       <Nav></Nav>
       <h1 className="titulo">Lugares</h1>
-      <p className="subtitulo">X Lugares cadastrados</p>
+      <p className="subtitulo">{Local.length} Lugares cadastrados</p>
       <div class="col-lg-6">
-        <div className="cross"><Link to="/cadastroSilvaLanches">⊕</Link> </div>
         <Card></Card>
 
       </div>

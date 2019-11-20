@@ -8,7 +8,7 @@ const CadastroSilvaLanches = () => (
 
     <div class="col-lg-6 form">
         <Nav></Nav>
-        <Link to="window.history.back()"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
+        <Link to="/"><img className="seta-voltar" alt="seta voltar" src="https://img.icons8.com/plasticine/100/000000/chevron-left.png" /></Link>
 
         <h1 className="titulo">SILVA LANCHES</h1>
         <Form >
