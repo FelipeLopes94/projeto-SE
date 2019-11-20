@@ -153,7 +153,23 @@ code {
     margin-top: -20%;
   }
 
+}
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  .preco-prato {
+    margin-top: -5%;
+  }
+
+  .cross {
+    width: 8%;
+    margin-right: 5%;
+    margin-top: -11%;
+  }
+
+  .cross-cadastro {
+    width: 15%;
+    margin-right: -10%;
+  }
 }
 
 @media (min-width: 1024px) {
