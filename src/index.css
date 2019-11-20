@@ -9,6 +9,10 @@ body {
   opacity: 1
 }
 
+body p {
+  color: white;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
@@ -156,6 +160,10 @@ code {
     float: right;
   }
 
+  .cross {
+    margin-right: -30%;
+  }
+
   .card-local {
     /* margin-left: 10%;margin-right: 40%; */
     margin-top: 2%;
@@ -163,7 +171,8 @@ code {
     border-radius: 20px;
     background-color: #333333;
     color: #FFFFFF;
-    width: 92%;
+    width: 60%;
+    margin-left: 60%;
   }
 }
 
